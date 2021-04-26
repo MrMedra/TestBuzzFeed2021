@@ -42,7 +42,7 @@ function calcular() {
 		document.getElementById("textoResultado").innerHTML = "Eres un Medrano deportista. Te gusta madrugar para ir al gimnasio antes de clase. Estás fanegas pero estás bien.";
 	}
 	else if (resultado >= 7 && resultado < 10) {
-		document.getElementById("imagenResultado").src = "img/MedraCiencia.png";
+		document.getElementById("imagenResultado").src = "img/MedraCIencia.png";
 		document.getElementById("textoResultado").innerHTML = "Eres un Medrano científico. Te gusta apuntarte a cosas de las que no tienes ni idea. Lo importante es aprender cosas nuevas.";
 
 	}
