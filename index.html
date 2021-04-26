@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript" src="js.js"></script>
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+
+	<div class="container justify-content-center">
+
+	<div class="row">
+		<div class="col-12">
+			<h1>¿Qué Medrano eres?</h1>
+		</div>
+	</div>
+
+	<hr>
+	
+	<div class="row">
+		<div class="col-12">
+			<h2>¿Qué elegirías para desayunar?</h1>
+		</div>
+
+		<div class="col-auto col-md-3">
+			<div class="card" style="width: 18rem;">
+				<img src="img/palmera.jpeg" class="card-img-top" alt="...">
+				<div class="card-body">
+					<a class="pregunta1 btn btn-primary w-100" alt="Opcion A" onclick="seleccionar(this);">Palmera de medio kilo</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-auto col-md-3">
+			<div class="card" style="width: 18rem;">
+				<img src="img/avena.jpeg" class="card-img-top" alt="...">
+				<div class="card-body">
+					<a class="pregunta1 btn btn-primary w-100" alt="Opcion B" onclick="seleccionar(this);">Avena con plátano</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-auto col-md-3">
+			<div class="card" style="width: 18rem;">
+				<img src="img/churros.jpeg" class="card-img-top" alt="...">
+				<div class="card-body">
+					<a class="pregunta1 btn btn-primary w-100" alt="Opcion C" onclick="seleccionar(this);">Churros con chocolate</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-auto col-md-3">
+			<div class="card" style="width: 18rem;">
+				<img src="img/tortilla.jpeg" class="card-img-top" alt="...">
+				<div class="card-body">
+					<a class="pregunta1 btn btn-primary w-100" alt="Opcion D" onclick="seleccionar(this);">Pincho de tortilla</a>
+				</div>
+			</div>
+		</div>		
+	</div>
+
+	<hr>
+	
+	<div class="row">
+		<div class="col-12">
+			<h2>¿Qué ejercicios encajan mejor contigo?</h1>
+		</div>
+
+		<div class="col-auto col-md-3">
+			<div class="card" style="width: 18rem;">
+				<img src="img/running.jpeg" class="card-img-top" alt="...">
+				<div class="card-body">
+					<a class="pregunta2 btn btn-primary w-100" alt="Opcion A" onclick="seleccionar(this);"><i>Running</i></a>
+				</div>
+			</div>
+		</div>
+		<div class="col-auto col-md-3">
+			<div class="card" style="width: 18rem;">
+				<img src="img/boxeo.jpeg" class="card-img-top" alt="...">
+				<div class="card-body">
+					<a class="pregunta2 btn btn-primary w-100" alt="Opcion B" onclick="seleccionar(this);">Boxeo</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-auto col-md-3">
+			<div class="card" style="width: 18rem;">
+				<img src="img/natacion.jpeg" class="card-img-top" alt="...">
+				<div class="card-body">
+					<a class="pregunta2 btn btn-primary w-100" alt="Opcion C" onclick="seleccionar(this);">Natación</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-auto col-md-3">
+			<div class="card" style="width: 18rem;">
+				<img src="img/yoga.jpeg" class="card-img-top" alt="...">
+				<div class="card-body">
+					<a class="pregunta2 btn btn-primary w-100" alt="Opcion D" onclick="seleccionar(this);">Yoga</a>
+				</div>
+			</div>
+		</div>		
+	</div>
+
+	<hr>
+
+	<div class="row">
+		<div class="col-12">
+			<h2>¿Qué videojuego preferirías?</h1>
+		</div>
+
+		<div class="col-auto col-md-3">
+			<div class="card" style="width: 18rem;">
+				<img src="img/ringfit.jpg" class="card-img-top" alt="...">
+				<div class="card-body">
+					<a class="pregunta3 btn btn-primary w-100" alt="Opcion A" onclick="seleccionar(this);">Ring Fit Adventure</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-auto col-md-3">
+			<div class="card" style="width: 18rem;">
+				<img src="img/wow.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<a class="pregunta3 btn btn-primary w-100" alt="Opcion B" onclick="seleccionar(this);">World Of Warcraft</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-auto col-md-3">
+			<div class="card" style="width: 18rem;">
+				<img src="img/pokemon.jpeg" class="card-img-top" alt="...">
+				<div class="card-body">
+					<a class="pregunta3 btn btn-primary w-100" alt="Opcion C" onclick="seleccionar(this);">Pokémon</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-auto col-md-3">
+			<div class="card" style="width: 18rem;">
+				<img src="img/goose.jpeg" class="card-img-top" alt="...">
+				<div class="card-body">
+					<a class="pregunta3 btn btn-primary w-100" alt="Opcion D" onclick="seleccionar(this);">Untitled Goose Game</a>
+				</div>
+			</div>
+		</div>		
+	</div>
+
+	<hr>
+
+	<div class="row">
+		<div class="col-12">
+			<h2>¿Qué música te gusta más?</h1>
+		</div>
+
+		<div class="col-auto col-md-3">
+			<div class="card" style="width: 18rem;">
+				<img src="img/varry.jpeg" class="card-img-top" alt="...">
+				<div class="card-body">
+					<a class="pregunta4 btn btn-primary w-100" alt="Opcion A" onclick="seleccionar(this);">Varry Brava</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-auto col-md-3">
+			<div class="card" style="width: 18rem;">
+				<img src="img/shikari.jpeg" class="card-img-top" alt="...">
+				<div class="card-body">
+					<a class="pregunta4 btn btn-primary w-100" alt="Opcion B" onclick="seleccionar(this);">Enter Shikari</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-auto col-md-3">
+			<div class="card" style="width: 18rem;">
+				<img src="img/tangana.jpeg" class="card-img-top" alt="...">
+				<div class="card-body">
+					<a class="pregunta4 btn btn-primary w-100" alt="Opcion C" onclick="seleccionar(this);">C. Tangana</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-auto col-md-3">
+			<div class="card" style="width: 18rem;">
+				<img src="img/ferdinand.jpeg" class="card-img-top" alt="...">
+				<div class="card-body">
+					<a class="pregunta4 btn btn-primary w-100" alt="Opcion D" onclick="seleccionar(this);">Franz Ferdinand</a>
+				</div>
+			</div>
+		</div>		
+	</div>
+
+	<hr>
+
+	<div class="row">
+		<div class="col-12">
+
+			<button type="button" class="btn btn-success w-100 mb-3" onclick="calcular();" data-bs-toggle="modal" data-bs-target="#modalResultado">Calcular resultado</button>	
+			<div class="modal fade" id="modalResultado" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">Resultado</h5>
+							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						</div>
+						<div class="modal-body">
+							<img id="imagenResultado" class="invisible w-100" src="CaballoBox.jpg">
+							<p id="textoResultado">Eres un Medrano...</p>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-success" data-bs-dismiss="modal">Cerrar</button>
+						</div>
+					</div>
+				</div>
+			</div>		
+		</div>
+		
+	</div>
+
+	<!-- Modal -->
+	
+
+
+
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
